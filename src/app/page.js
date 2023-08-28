@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Container from '@/components/Container';
 import Title from '@/components/Title'
-import AboutMe from '@/components/AboutMe';
+import Summary from '@/components/Summary';
 import styled from 'styled-components';
 import Links from '@/components/Links/components/Links';
 import SpotifyCard from '@/components/SpotifyCard/components/SpotifyCard';
@@ -20,7 +20,7 @@ export default function Home() {
     <PageContainer>
       <Container>
         <Title/>
-        <AboutMe/>
+        <Summary/>
         <Links/>
         <SpotifyCard/>
       </Container>

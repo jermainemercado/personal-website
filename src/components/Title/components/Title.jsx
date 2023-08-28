@@ -25,10 +25,14 @@ const Occupation = styled.h2`
 	font-style: italic;
 	font-size: 31.8px;
 `
+
+const OccupationEmoji = styled.span`
+	font-style: normal;
+`
 const Title = () => (
 	<TitleContainer>
-		<Name>jermaine mercado</Name>
-		<Occupation>full-stack developer</Occupation>
+		<Name>jermaine mercado </Name>
+		<Occupation>full-stack developer <OccupationEmoji>👨🏽‍💻</OccupationEmoji></Occupation>
 	</TitleContainer>
 );
 

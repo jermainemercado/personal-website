@@ -16,7 +16,7 @@ const LinksContainer = styled.div`
 const Links = () => (
 	<LinksContainer>
 		<Link
-			href='https://www.google.com/'
+			href='https://drive.google.com/file/d/1FCdrCU85TEA7oPxxZSo6rS1BjkFMTOqW/view?usp=sharing'
 			label='resume'
 			newTab
 		/>
@@ -34,10 +34,11 @@ const Links = () => (
 			href='mailto:jermaine.mercado7@gmail.com'
 			label='contact'
 		/>
+		{/* TO BE ADDED AT A LATER DATE.
 		<Link
 			href='#aboutMe'
 			label='about me'
-		/>
+		/> */}
 	</LinksContainer>
 );
 

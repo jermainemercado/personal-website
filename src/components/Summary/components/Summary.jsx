@@ -8,9 +8,11 @@ const TextContainer = styled.div`
 	grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row-start: 2-end;
-	margin-top: 72px;
+	margin-top: 144px;
 	padding-left: 144px;
 	letter-spacing: 2px;
+
+	line-height: 21px;
 `;
 
 const Keyword = styled.strong`
@@ -78,42 +80,42 @@ const ListItemStitchy = styled.li`
 const Summary = () => (
 	<TextContainer>
 		<p>
-			hi! i'm jermaine - a <Keyword>software engineer</Keyword> specializing in producing <Keyword>accessible web</Keyword> experiences; with exposure across the entire stack. <br/>
-			my <span title="bread and butter">🍞 and 🧈</span>  is react and node.js using typescript.<br/>
-			<br/>
+			hi! i&apos;m jermaine - a <Keyword>software engineer</Keyword> specializing in producing <Keyword>accessible web</Keyword> experiences; with exposure across the entire stack. <br />
+			my <span title="bread and butter">🍞 and 🧈</span>  is react and node.js using typescript.<br />
+			<br />
 		</p>
-			<Keyword>
-				i have:
-			</Keyword>
-			<EmojiBulletedList>
-				<ListItemMercari>
-					developed <Keyword>experiments controlled by A/B tests</Keyword> for <Keyword>millions</Keyword> of users as part of the Mercari, Inc. web team
-				</ListItemMercari>
-				<ListItemKonradGroup>
-					created a <Keyword>responsive and WCAG compliant</Keyword> component library while interning at Konrad Group
-				</ListItemKonradGroup>
-				<ListItemKenna>
-					enhanced features for a supply chain management application during my time at Kenna Technology Solutions Inc.
-				</ListItemKenna>
-				<ListItemTicketkings>
-					built a subscription tracker and authentication handler, controlling recurring payments, automating supervision of content access for Ticketkings IO, LLC.
-				</ListItemTicketkings>
-			</EmojiBulletedList>
-			<br/>
-			<Keyword>
-				i am currently:
-			</Keyword>
-			<EmojiBulletedList>
-				<ListItemMi9>
-					leading architecture of a software licensing portal, providing <Keyword>role-based access control</Keyword> for the retrieval and modification of software versioning systems for point-of-sale systems at Mi9 Retail, Inc.
-				</ListItemMi9>
-				<ListItemStitchy>
-					designing a portfolio analysis application for ERC-20 tokens, reading data from the <Keyword>Ethereum </Keyword>blockchain, <br/>recording profitability, displaying expected values of anticipated positions and visualizing data of historical trades
-				</ListItemStitchy>
-			</EmojiBulletedList>
-			<br/>
-			<br/>
-			to learn more about what i get up to outside of breaking code —  keep scrolling!  ↓
+		<Keyword>
+			i have:
+		</Keyword>
+		<EmojiBulletedList>
+			<ListItemMercari>
+				developed <Keyword>experiments controlled by A/B tests</Keyword> for <Keyword>millions</Keyword> of users as part of the Mercari, Inc. web team
+			</ListItemMercari>
+			<ListItemKonradGroup>
+				created a <Keyword>responsive and WCAG compliant</Keyword> component library while interning at Konrad Group
+			</ListItemKonradGroup>
+			<ListItemKenna>
+				enhanced features for a supply chain management application during my time at Kenna Technology Solutions Inc.
+			</ListItemKenna>
+			<ListItemTicketkings>
+				built a subscription tracker and authentication handler, controlling recurring payments, automating supervision of content access for Ticketkings IO, LLC.
+			</ListItemTicketkings>
+		</EmojiBulletedList>
+		<br />
+		<Keyword>
+			i am currently:
+		</Keyword>
+		<EmojiBulletedList>
+			<ListItemMi9>
+				leading architecture of a software licensing portal, providing <Keyword>role-based access control</Keyword> for the retrieval and modification of software versioning systems for point-of-sale systems at Mi9 Retail, Inc.
+			</ListItemMi9>
+			<ListItemStitchy>
+				designing a portfolio analysis application for ERC-20 tokens, reading data from the <Keyword>Ethereum </Keyword>blockchain; recording profitability, displaying expected values of anticipated positions and visualizing historical metrics for trades undertaken
+			</ListItemStitchy>
+		</EmojiBulletedList>
+		<br />
+		<br />
+		{/* to learn more about what i get up to outside of breaking code —  keep scrolling!  ↓ */}
 	</TextContainer>
 )
 

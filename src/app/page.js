@@ -7,7 +7,7 @@ import Title from '@/components/Title'
 import Summary from '@/components/Summary';
 import styled from 'styled-components';
 import Links from '@/components/Links/components/Links';
-import SpotifyCard from '@/components/SpotifyCard/components/SpotifyCard';
+import MusicCard from '@/components/SpotifyCard/components/SpotifyCard';
 
 const PageContainer = styled.main`
   * {
@@ -22,7 +22,7 @@ export default function Home() {
         <Title/>
         <Summary/>
         <Links/>
-        <SpotifyCard/>
+        {/* <MusicCard/> */}
       </Container>
     </PageContainer>
   )

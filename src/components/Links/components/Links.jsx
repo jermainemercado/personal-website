@@ -7,10 +7,18 @@ const LinksContainer = styled.div`
 	grid-column-start: 1;
 	grid-column-end: span 3;
 	grid-row-start: 5;
-	padding-left: 144px;
 	justify-content: space-between;
-	margin-top: auto;
 	padding-bottom: 72px;
+	margin-top: auto;
+
+	@media only screen and (max-width: 63.99em) {
+		padding-left: 32px;
+		padding-right: 32px;
+
+	}
+	@media only screen and (min-width: 64em) {
+		padding-left: 144px;
+	}
 `
 
 const Links = () => (

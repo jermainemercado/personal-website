@@ -5,14 +5,29 @@ const TextContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	color: white;
-	grid-column-start: 1;
-	grid-column-end: 4;
-	grid-row-start: 2-end;
-	margin-top: 144px;
-	padding-left: 144px;
-	letter-spacing: 2px;
 
-	line-height: 21px;
+	/* Medium devices such as tablets (768px and up) */
+	@media only screen and (max-width: 63.9em) {
+		margin-top: 10vw;
+		padding-right: 64px;
+		padding-left: 64px;
+		letter-spacing: 0.5px;
+
+		font-size: 2.5vw;
+		line-height: 3vw;
+	}
+
+	/* Large devices such as laptops (1024px and up) */
+	@media only screen and (min-width: 64em) {
+		margin-top: 144px;
+		letter-spacing: 2px;
+		padding-left: 144px;
+		line-height: 21px;
+
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 2-end;
+	}
 `;
 
 const Keyword = styled.strong`
@@ -21,7 +36,12 @@ const Keyword = styled.strong`
 
 const EmojiBulletedList = styled.ul`
 	list-style: none;
-	padding-left: 24px;
+	@media only screen and (max-width: 48em) {
+		padding-left: 0px;
+	}
+	@media only screen and (min-width: 64em) {
+		padding-left: 24px;
+	}
 `;
 
 /**

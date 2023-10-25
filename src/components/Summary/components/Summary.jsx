@@ -127,7 +127,7 @@ const Summary = () => (
 		</Keyword>
 		<EmojiBulletedList>
 			<ListItemMi9>
-				leading architecture of a software licensing portal, providing <Keyword>role-based access control</Keyword> for the retrieval and modification of software versioning systems for point-of-sale systems at Mi9 Retail, Inc.
+				developing a software licensing portal from end-to-end, providing <Keyword>role-based access control</Keyword> for the retrieval and modification of software versioning systems for point-of-sale systems at Mi9 Retail, Inc.
 			</ListItemMi9>
 			<ListItemStitchy>
 				designing a portfolio analysis application for ERC-20 tokens, reading data from the <Keyword>Ethereum </Keyword>blockchain; recording profitability, displaying expected values of anticipated positions and visualizing historical metrics for trades undertaken
